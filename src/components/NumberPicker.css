@@ -1,0 +1,18 @@
+.hidden {
+    visibility: hidden;
+}
+
+
+.CounterPlus button, .CounterMinus button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: #76e5f8;
+    background-color: white;
+    padding: 0;
+    font-size: 22px;
+}
+
+.CounterPlus, .CounterMinus {
+    padding: 0;
+}

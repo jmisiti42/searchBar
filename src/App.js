@@ -1,16 +1,17 @@
 import React from "react";
-import Titles from "./components/Titles.js";
-import SearchBar from "./components/SearchBar.js";
-import DatePicker from "react-datepicker";
+import SearchBarApi from "./components/SearchInApi.js";
+import DatePicker from "./components/DatePicker.js";
+import NumberPicker from "./components/NumberPicker.js";
 
 class App extends React.Component {
   render () {
     return (
       <div>
-        <Titles />
-        <SearchBar label="Départ"/>
-        <SearchBar label="Arrivée"/>
+        <h1>My SearchBar</h1>
+        <SearchBarApi label="Departure"/>
+        <SearchBarApi label="Arrival"/>
         <DatePicker />
+        <NumberPicker />
       </div>
     );
   }

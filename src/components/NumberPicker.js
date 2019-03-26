@@ -14,7 +14,7 @@ class SearchBar extends React.Component {
     handleClick(modifier) {
         this.setState({counter: this.state.counter + (modifier === "-" ? -1 : 1) });
     }
-    
+
     render() {
         return (
             <div className="Counter col-md-4">
@@ -25,7 +25,7 @@ class SearchBar extends React.Component {
                         <button>-</button>
                     </span>
                     <span className="col-8">
-                        <input type="text" value={this.state.counter + " passagers"} placeholder="Passagers" className="CounterInput" readOnly="readonly" />
+                        <input type="text" value={`${this.state.counter} passengers`} placeholder="Passengers" className="CounterInput" readOnly="readonly" />
                     </span>
                     <span 
                         onClick={() => this.handleClick("+")} 

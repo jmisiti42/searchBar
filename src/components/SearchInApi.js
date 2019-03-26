@@ -52,7 +52,7 @@ class SearchInApi extends React.Component {
         return (
             <div className="SearchBar_wrapper col-md-2 col-xs-6">
                 <Select
-                    name="Departures"
+                    name={label}
                     placeholder={label}
                     options={options}
                     onInputChange={this.getAutoCompletion}

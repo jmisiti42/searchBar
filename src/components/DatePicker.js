@@ -3,6 +3,7 @@ import moment from 'moment';
 
 import DayPickerInput from 'react-day-picker/DayPickerInput';
 import 'react-day-picker/lib/style.css';
+import './DatePicker.css';
 
 import { formatDate, parseDate } from 'react-day-picker/moment';
 

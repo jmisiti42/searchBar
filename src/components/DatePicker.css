@@ -10,7 +10,7 @@
 .DayPickerInput {
 	width: 100%;
 	height: 100%;
-	padding-left: 15px;
+	padding: 0 15px 0 15px;
 }
 
 .InputFromTo .DayPicker-Day--start {

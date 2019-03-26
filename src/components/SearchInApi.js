@@ -50,7 +50,7 @@ class SearchInApi extends React.Component {
         const { options } = this.state;
         const { label } = this.props;
         return (
-            <div className="SearchBar_wrapper col-md-2 col-xs-6">
+            <div className="SearchBar_wrapper">
                 <Select
                     name={label}
                     placeholder={label}

@@ -7,6 +7,12 @@
 	border-radius: 0 !important;
 }
 
+.DayPickerInput {
+	width: 100%;
+	height: 100%;
+	padding-left: 15px;
+}
+
 .InputFromTo .DayPicker-Day--start {
 	border-top-left-radius: 50% !important;
 	border-bottom-left-radius: 50% !important;
@@ -21,6 +27,16 @@
 	width: 550px;
 }
 
+.separator {
+	text-align: center;
+}
+
 .InputFromTo-to .DayPickerInput-Overlay {
 	margin-left: -198px;
+}
+
+@media screen and (max-width : 640px) {
+	input {
+		font-size: 12px;
+	}
 }

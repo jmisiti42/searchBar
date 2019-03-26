@@ -17,7 +17,7 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="Counter col-md-4">
+            <div className="Counter">
                 <div className="row">
                     <span 
                         onClick={() => this.handleClick("-")}

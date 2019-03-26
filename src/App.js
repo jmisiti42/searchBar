@@ -9,10 +9,10 @@ class App extends React.Component {
       <div className="container-fluid">
         <h1 className="text-center">My SearchBar</h1>
         <div className="row">
-          <div className="col-md-2 marge"><SearchBarApi label="Departure"/></div>
-          <div className="col-md-2 marge"><SearchBarApi label="Arrival"/></div>
-          <div className="col-md-5 marge"><DatePicker /></div>
-          <div className="col-md-3 marge"><NumberPicker /></div>
+          <div className="col-md-2 margin"><SearchBarApi label="Departure"/></div>
+          <div className="col-md-2 margin"><SearchBarApi label="Arrival"/></div>
+          <div className="col-md-5 margin"><DatePicker /></div>
+          <div className="col-md-3 margin"><NumberPicker /></div>
         </div>
       </div>
     );

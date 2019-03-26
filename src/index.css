@@ -11,9 +11,10 @@ body {
 	padding: 0;
 }
 
-.marge {
+.margin {
 	margin-bottom: 18px;
 }
+
 input, .css-1hwfws3, .css-1wy0on6 {
 	background-color: rgb(231, 255, 255);
 	border: 0;
@@ -26,4 +27,10 @@ input {
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@media screen and (max-width : 640px) {
+	input {
+		font-size: 12px;
+	}
 }

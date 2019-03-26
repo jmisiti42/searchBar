@@ -34,9 +34,3 @@
 .InputFromTo-to .DayPickerInput-Overlay {
 	margin-left: -198px;
 }
-
-@media screen and (max-width : 640px) {
-	input {
-		font-size: 12px;
-	}
-}
